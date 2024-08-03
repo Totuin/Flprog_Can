@@ -7,7 +7,7 @@
 #define FLPROG_PLUG_CAN
 #endif
 
-#ifdef FLPROG_PLUG_CAN
+#ifdef FLPROG_STM32_CAN
 #include "flprogStm32Can.h"
 #endif
 
