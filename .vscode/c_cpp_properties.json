@@ -8,7 +8,7 @@
             "intelliSenseMode": "windows-msvc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/FLProg/ideV8/**",
+                "E:/FLProg/ideV8/**",
                 "F:/FLProg/ideV8/**"
             ],
             "forcedInclude": [],
@@ -22,7 +22,7 @@
         },
         {
             "name": "Arduino",
-            "compilerPath": "D://FLProg//ideV8//portable//packages//arduino//tools//avr-gcc//7.3.0-atmel3.6.1-arduino7//bin//avr-g++",
+            "compilerPath": "E://FLProg//ideV8//portable//packages//arduino//tools//avr-gcc//7.3.0-atmel3.6.1-arduino7//bin//avr-g++",
             "compilerArgs": [
                 "-w",
                 "-std=gnu++11",
@@ -35,19 +35,19 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                "D://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//cores//arduino",
-                "D://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//variants//mega",
-                "D://FLProg//ideV8//portable//sketchbook//libraries//Flprog_Modbus//src",
-                "D://FLProg//ideV8//portable//sketchbook//libraries//Flprog_Utilites",
-                "D://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//libraries//SoftwareSerial//src",
-                "D://FLProg//ideV8//portable//sketchbook//libraries//Ethernet//src",
-                "D://FLProg//ideV8//portable//sketchbook//libraries//SPI//src",
+                "E://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//cores//arduino",
+                "E://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//variants//mega",
+                "E://FLProg//ideV8//portable//sketchbook//libraries//Flprog_Modbus//src",
+                "E://FLProg//ideV8//portable//sketchbook//libraries//Flprog_Utilites",
+                "E://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//libraries//SoftwareSerial//src",
+                "E://FLProg//ideV8//portable//sketchbook//libraries//Ethernet//src",
+                "E://FLProg//ideV8//portable//sketchbook//libraries//SPI//src",
                 "h://flprog//idev8//portable//packages//arduino//tools//avr-gcc//7.3.0-atmel3.6.1-arduino7//lib//gcc//avr//7.3.0//include",
                 "h://flprog//idev8//portable//packages//arduino//tools//avr-gcc//7.3.0-atmel3.6.1-arduino7//lib//gcc//avr//7.3.0//include-fixed",
                 "h://flprog//idev8//portable//packages//arduino//tools//avr-gcc//7.3.0-atmel3.6.1-arduino7//avr//include"
             ],
             "forcedInclude": [
-                "D://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//cores//arduino//Arduino.h"
+                "E://FLProg//ideV8//portable//packages//arduino//hardware//avr//1.8.5//cores//arduino//Arduino.h"
             ],
             "cStandard": "c11",
             "cppStandard": "c++11",
