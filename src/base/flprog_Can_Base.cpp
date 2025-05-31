@@ -1,5 +1,12 @@
 #include "flprog_Can_Base.h"
 
+bool FLProgAbstractCanBus::write(CAN_message_t &CAN_tx_msg, bool sendMB)
+{
+    (void)CAN_tx_msg;
+    (void)sendMB;
+    return false;
+}
+
 //---------------------------------------------------------FLProgCanBusMessage----------------------------------------------------------
 FLProgCanBusMessage::FLProgCanBusMessage(FLProgAbstractCanBus *cunBus, uint32_t id, bool extended, uint8_t len)
 {
@@ -115,7 +122,7 @@ void FLProgCanBusMessage::sendPool()
 
 void FLProgCanBusMessage::checkNeedSend()
 {
-    
+
     if (_mode == FLPROG_CAN_BUS_MESSAGE_CHANGE_MODE)
     {
         return;

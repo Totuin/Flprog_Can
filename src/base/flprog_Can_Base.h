@@ -37,7 +37,7 @@ class FLProgAbstractCanBus
 public:
     virtual bool hasNewReadMessage() { return false; };
     virtual CAN_message_t *getReadMessage() { return 0; };
-    virtual bool write(CAN_message_t &CAN_tx_msg, bool sendMB = false) { return false; };
+    virtual bool write(CAN_message_t &CAN_tx_msg, bool sendMB = false);
 
 protected:
 };
